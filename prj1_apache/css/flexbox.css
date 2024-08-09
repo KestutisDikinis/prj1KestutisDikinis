@@ -1,0 +1,73 @@
+.flex {
+    display: flex;
+}
+
+.flex-gap {
+    gap: 1rem;
+}
+.flex-col-1{
+    flex-grow: 1;
+}
+.flex-col-2{
+    flex-grow: 2;
+}
+.flex-col-3{
+    flex-grow: 3;
+}
+.flex-col-4{
+    flex-grow: 4;
+    max-width: 70vw;
+}
+.flex-col-5{
+    flex-grow: 5;
+}
+.flex-col-6{
+    flex-grow: 6;
+}
+.flex-col-7{
+    flex-grow: 7;
+}
+.flex-col-8{
+    flex-grow: 8;
+}
+
+
+.flex-direction-column {
+    flex-direction: column;
+}
+.flex-auto-margin{
+    margin: auto !important;
+}
+.media-left {
+    /* my poor attempt to aling content to the left */
+    /* align-content: flex-end; */
+    order: 0;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+}
+.container-header {
+    justify-content: left !important;
+    display: flex;
+}
+.container {
+    /* flex container */
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* might need to remove */
+    /* justify-content: center; */
+}
+.list-item {
+    /* this is also a flexbox */
+    width: 100%;
+    background: whitesmoke;
+    display: flex;
+    border: 0.3px solid rgba(79, 79, 79, 0.26);
+    margin: 1px;
+}
+.flex-align-end{
+    justify-content: right;
+    align-items: flex-end;
+}

@@ -1,0 +1,1 @@
+insert into accounts values ('10', 'Test', 'mypassword', 'Tim', '', 'Timmermans', '1987-03-12', 'tim@timmermans.nl', '31678945612', 'Ospel', 'Bigshaq 12', '6734 WC', '10', '3');

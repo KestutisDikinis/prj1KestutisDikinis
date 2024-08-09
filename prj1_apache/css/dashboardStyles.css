@@ -1,0 +1,27 @@
+#profile-section {
+    background: rgb(176, 35, 24);
+    color: whitesmoke;
+    padding: 10px;
+    /* width: 100%;  CAUSED SOME STYLING ISSUE*/
+}
+
+.profile-section-img {
+    width: auto;
+    height: 18vh;
+    padding-right: 1vw;
+}
+.events_list {
+    text-align: center;
+    margin: auto;
+    border: 3mm ridge rgba(176, 35, 24, 0.6);
+    width: 70%;
+    list-style-type: none;
+}
+.events_list li {
+    width: 100%;
+    border-bottom: 0.3rem solid;
+
+}
+#myEvents {
+    text-align: center;
+}

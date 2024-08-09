@@ -1,0 +1,1 @@
+insert into payment_info values ('10', '5', '1', '12121212');

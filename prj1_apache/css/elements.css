@@ -1,0 +1,123 @@
+
+/* base / native html elements */
+body {
+    background: whitesmoke;
+    margin: 0 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+h2 {
+    text-align: left;
+}
+html{
+    height: 100%;
+}
+iframe {
+    width: 100%;
+    height: 100vh;
+}
+
+button {
+    background: rgb(55, 86, 146);
+    width: 9vw;
+    height: 6vh;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5vw;
+}
+.button-large{
+    width: 100%;
+}
+a{
+    text-decoration: unset !important;
+}
+a:-webkit-any-link{
+    text-decoration: unset !important;
+}
+button:hover{
+    font-size: 1.6vw;
+    background: rgb(56, 87, 147);
+    transition: font-size 1s;
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+}
+
+h1 h2 h3 h4 {
+    color: rgb(38, 38, 38);
+}
+.center{
+    text-align: center !important;
+}
+.rounded-button{
+    border-radius: 100%;
+}
+
+input[type=button] {
+    background: rgb(55, 86, 146);
+    width: 9vw;
+    height: 6vh;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5vw;
+}
+input[type=submit] {
+    background: rgb(55, 86, 146);
+    width: 9vw;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5vw;
+}
+
+select{
+    width: 10vw;
+    /*height: 7vh;*/
+    font-weight: bold;
+    color: #262525;
+    margin: 1rem;
+    text-align-last:center;
+    text-align: center;
+    font-size: 1rem;
+
+    border: unset;
+    border-bottom: 2px solid #af2317;
+}
+select:focus{
+    text-decoration: none;
+    border: 1px solid red;
+    outline: none;
+    border: unset;
+    border-bottom: 2px solid #af2317;
+
+    transition: border 500ms;
+    transition-timing-function: ease-out;
+}
+select:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #af2317;
+    transition: border 600ms;
+    transition-timing-function: ease-out;
+}
+header{
+    font-size: small;
+    max-height: 20vh;
+}
+header .header-form{
+    width: 50%;
+}
+
+footer{
+    background-color: #262625;
+    color: whitesmoke;
+}
+.iframe-bg{
+    position: absolute;
+
+    /*width: 101vw;*/
+    height: calc(73vw/1.70);
+    filter: blur(2px);
+}
